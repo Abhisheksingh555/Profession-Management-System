@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profession Management System</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="server.js" defer></script>
+  </head>
+  <body>
+    <h2>New Employees</h2>
+    <form>
+      <label for="name">
+        Enter Name
+        <input type="text" placeholder="Enter your name" id="name" />
+      </label>
+
+      <label for="profession">
+        Enter Profession
+        <input type="text" placeholder="Enter your profession" id="profession" />
+      </label>
+
+      <label for="age">
+        Enter Age
+        <input type="text" placeholder="Enter your age" id="age" />
+      </label>
+    </form>
+
+    <button id="btn">Add User</button>
+
+    <p id="error" class="hide">
+      <span>Error:</span> Please make sure all fields are filled before adding an employee
+    </p>
+    <p id="success" class="hide">
+      <span>Success:</span> Employee Added
+    </p>
+
+    <h3>Added Employees</h3>
+    <div id="employee-list"></div>
+  </body>
+</html>
