@@ -28,8 +28,6 @@ It allows users to **add, view, and delete employees** with proper validation an
 ### 📱 Mobile View
 ![Mobile Preview](https://github.com/Abhisheksingh555/Profession-Management-System/blob/main/assets/preview-4.jpg)  
 
-*(Save screenshots inside a `preview/` folder in your repo with these names for best organization.)*
-
 ---
 
 ## ⚡ Features
